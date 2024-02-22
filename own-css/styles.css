@@ -1,0 +1,93 @@
+h1{
+    font-weight: bolder;
+    font-size: 4rem;
+}
+/* title section */
+.title{
+    background-color: #9AD0C2;
+    text-align: center;
+}
+
+.title-image{
+    width:70%;
+}
+.title-btn{
+    margin:3% 2%;  
+}
+
+/* features section  */
+.features{
+    margin:7% 15%;
+    text-align: center;
+}
+.features-icon{
+    color:#9AD0C2;
+    font-size: 3rem;
+}
+.features-icon:hover{
+    color:aqua;
+}
+.features-para{
+    color:grey;
+}
+/* testimonials section  */
+.testimonials{
+    padding:100px;
+    text-align: center;
+    background-color: #9AD0C2;
+}
+.testimonial-image{
+    border-radius: 100%;
+}
+
+
+/* press section  */
+.press{
+    background-color: #9AD0C2;
+    text-align: center;
+}
+
+.press-image{
+    width:20%;
+    margin:auto 10px auto;
+}
+
+/* pricing section  */
+.pricing{
+    text-align: center;
+    margin:7% 15%;
+}
+
+/* download-secton  */
+.download-section{
+    background-color: #9AD0C2;
+    padding:7% 15%;
+    text-align: center;
+}
+.download-btn{
+    margin:3% 2%;
+}
+ 
+/* footer section  */
+.foot{
+    text-align: center;
+}
+.foot-icon{
+    margin:1%;
+}
+/* own breakpoints  */
+@media (max-width:1087px){
+    h1{
+        font-size:2rem;
+        font-weight: bold;
+        padding:20px;
+    }
+}
+@media (max-width:770px)
+{
+    h1{
+        font-size: 2rem;
+        font-weight: bold;
+        padding:20px;
+    }
+}
